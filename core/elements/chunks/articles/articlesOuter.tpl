@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-         {*include 'file:chunks/articles/popularSidebar.tpl'*}
+         {include 'file:chunks/articles/popularSidebar.tpl'}
         </div>
     </div> 
 </section>

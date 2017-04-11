@@ -51,7 +51,7 @@ a:focus, input:focus, select {
 }
 p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 1.4;
     margin: 0 0 20px 0;
 }
 blockquote {
@@ -85,6 +85,13 @@ color: black;
     margin: 0 0 26px;
     padding-top: 20px;
 }
+
+.heading{
+    font-size: 24px;
+    color: #2f3587;
+    margin: 35px 0px 30px 0px;
+}
+
 h3 {
     color: #2f3587;
     font-size: 24px;
