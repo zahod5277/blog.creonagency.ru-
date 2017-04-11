@@ -1,0 +1,1 @@
+{if count($files) > 0}{$files[0]['mainImage']}{/if}

@@ -1,0 +1,147 @@
+/*
+    Mobile
+*/
+@media screen and (max-width: 1310px) {
+    html, body{
+        min-width: 320px;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    a:focus {
+        outline: none;
+    }
+}
+@media screen and (max-width: 1240px) {
+    .menu a {
+        padding: 6px 15px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .menu a {
+        padding: 6px 10px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .header .col-md-6 .menu {
+        display: none;
+    }
+    .btn_menu {
+        display: block;
+    }
+    .header_right {
+        margin-right: 60px;
+    }
+    .top_menu {
+        position: static;
+    }
+    .menu {
+        background: #269cd8;
+        top: 78px;
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        left: 0;
+        margin: 0;
+        padding: 20px;
+    }
+    .menu li {
+        width: 100%;
+    }
+    .menu li:after {
+        display: none;
+    }
+    .menu_visible {
+        position: absolute;
+        right: 0;
+        left: 0;
+        display: block !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .col-shift .footer_title, .col-shift .footer_menu {
+        padding-left: 0;
+    }
+    .header .top_menu {
+        margin-top: -1px;
+    }
+    .footer_menu {
+        margin-bottom: 40px;
+    } 
+}
+@media screen and (max-width: 880px) {
+    .top_info h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top_wrap {
+        padding: 50px 0;
+        min-height: 228px;
+    }
+    .top_info {
+        position: static;
+    }
+    .tags {
+        float: none;
+        margin-right: 0;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .search {
+        display: none;
+    }
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 660px) {
+   
+}
+@media screen and (max-width: 625px) {
+    .logo_info {
+        display: none;
+    }
+}
+@media screen and (max-width: 570px) {
+    
+}
+@media screen and (max-width: 535px) {
+    .top_info h1 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .top_desc {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .page_content {
+        padding: 52px 20px 30px;
+    }
+    .top_info {
+        padding: 0 10px;
+    }
+    blockquote {
+        padding: 33px 25px 35px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .btn_top {
+        display: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .top_info h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 375px) {
+   
+}
+@media screen and (max-width: 320px) {
+    
+}
