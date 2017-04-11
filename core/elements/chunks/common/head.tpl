@@ -10,3 +10,4 @@
 <link rel="stylesheet" href="{$_modx->config.assets_url}templates/default/css/bootstrap-grid.css" type="text/css" />
 <link rel="stylesheet" href="{$_modx->config.assets_url}templates/default/css/style.css" type="text/css" />
 <link rel="stylesheet" href="{$_modx->config.assets_url}templates/default/css/media.css" type="text/css" />
+{include 'file:chunks/common/openGraph.tpl'}

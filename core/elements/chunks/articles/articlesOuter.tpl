@@ -29,12 +29,7 @@
                         <div class="row clearfix">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="social_title">Поделиться с друзьями</div>
-                                <div class="social_icons">
-                                    <a href="#" class="soc_icon"></a>
-                                    <a href="#" class="soc_icon"></a>
-                                    <a href="#" class="soc_icon"></a>
-                                    <a href="#" class="soc_icon"></a>
-                                </div>
+                                <div data-background-alpha="0.0" data-buttons-color="#FFFFFF" data-counter-background-color="#ffffff" data-share-counter-size="12" data-top-button="false" data-share-counter-type="disable" data-share-style="1" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="true" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok.gp." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1657268" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="true" class="uptolike-buttons" ></div>
                             </div>
                             {if $_modx->resource.tags?}
                             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -50,45 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="page_sidebar">
-                    <div class="sidebar_title">Популярные статьи</div>
-                    <div class="posts_items">
-                        <div class="row clearfix">
-                            <div class="col-md-12">
-                                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small-two.png);">
-                                    <div class="post_info">
-                                        <div class="post_title">Секреты эффективной работы</div>
-                                        <div class="post_category">Делегирование задач</div>
-                                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                                        <a href="#" class="post_more">Читать далее</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small-three.png);">
-                                    <div class="post_info">
-                                        <div class="post_title">Секреты эффективной работы</div>
-                                        <div class="post_category">Делегирование задач</div>
-                                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                                        <a href="#" class="post_more">Читать далее</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small.png);">
-                                    <div class="post_info">
-                                        <div class="post_title">Секреты эффективной работы</div>
-                                        <div class="post_category">Делегирование задач</div>
-                                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                                        <a href="#" class="post_more">Читать далее</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+         {*include 'file:chunks/articles/popularSidebar.tpl'*}
         </div>
     </div> 
 </section>
