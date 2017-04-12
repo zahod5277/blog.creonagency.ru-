@@ -1,47 +1,22 @@
-{*<section class="popular_wrap">
-    <div class="container">
-        <div class="title">Популярные статьи</div>
-        <div class="row clearfix">
-            <div class="col-md-3 col-xs-6 make-xs-12">
-                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small.png);">
-                    <div class="post_info">
-                        <div class="post_title">Секреты эффективной работы</div>
-                        <div class="post_category">Делегирование задач</div>
-                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                        <a href="#" class="post_more">Читать далее</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6 make-xs-12">
-                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small.png);">
-                    <div class="post_info">
-                        <div class="post_title">Секреты эффективной работы</div>
-                        <div class="post_category">Делегирование задач</div>
-                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                        <a href="#" class="post_more">Читать далее</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6 make-xs-12">
-                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small.png);">
-                    <div class="post_info">
-                        <div class="post_title">Секреты эффективной работы</div>
-                        <div class="post_category">Делегирование задач</div>
-                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                        <a href="#" class="post_more">Читать далее</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6 make-xs-12">
-                <div class="post" style="background-image: url({$_modx->config.assets_url}templates/default/img/image-small.png);">
-                    <div class="post_info">
-                        <div class="post_title">Секреты эффективной работы</div>
-                        <div class="post_category">Делегирование задач</div>
-                        <div class="post_desc">Кто работает весь день, тому, по меткому замечанию Джона Рокфеллера, некогда зарабатывать деньги. То же и с успехом: ночуя в офисе, можно стать… обычным трудоголиком. Но ведь чтобы добиться успеха, надо многим пожертвовать. Или не надо?</div>
-                        <a href="#" class="post_more">Читать далее</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-</section>*}
+{*$_modx->runSnippet('pdoResources',[
+    'parents' => 5,
+    'where' => '{"template:=":"2"}',
+    'limit' => 4,
+    'tpl' => '@FILE:chunks/main/popular.row.tpl',
+    'tplWrapper' => '@FILE:chunks/main/popularOuter.tpl',
+    'loadModels' => 'tickets',
+    'class' => 'Ticket',
+    'leftJoin' => '{
+        "TicketView": {
+            "class": "TicketView",
+            "on": "Ticket.id = TicketView.parent"
+        }
+    }',
+    'parents' => 0,
+    'select' => '{
+        "Ticket": "Ticket.*",
+        "TicketView": "COUNT(TicketView.uid) as countviews"
+    }'
+    'groupby' => 'Ticket.id'
+    'sortby' => '{"countviews":"desc"}',
+])*}
