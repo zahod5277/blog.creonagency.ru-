@@ -18,11 +18,29 @@
     font-weight: 600;
     font-style: normal;
 }
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PT_Sans-Web-Regular.ttf') format('truetype'); 
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PT_Sans-Web-Italic.ttf') format('truetype'); 
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PT_Sans-Web-Bold.ttf') format('truetype'); 
+    font-weight: 700;
+    font-style: normal;
+}
 /*
     General
 */
 body {
-    font-family: 'Circe', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 12px;
     color: #525252;
     background: #eeeeee;
@@ -182,6 +200,7 @@ img {
     background: #269cd8;
     min-height: 96px;
     padding: 18px 0 0;
+    font-family: 'Circe';
 }
 .header_logo {
     width: 185px;
@@ -285,7 +304,10 @@ img {
     padding-top: 29.638%;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow:0 0 0 1000px rgba(0,0,0,0.3) inset;
 }
+
+
 .top_info {
     position: absolute;
     left: 15px;
@@ -435,6 +457,19 @@ img {
     background: #fff;
     padding: 52px 50px 30px;
 }
+
+/*.page_content p,
+.page_content ul,
+.page_content ul li,
+.page_content a,
+.page_content span,
+.page_content ol, 
+td,.page_content th,
+.page_content tr{
+    font-family: 'PT Sans';
+    font-weight: 400;
+}*/
+
 .page_content a {
     text-decoration: underline;
     color: #269cd8;
