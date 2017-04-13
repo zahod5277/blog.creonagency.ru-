@@ -19,7 +19,7 @@
             'sortdir' => 'DESC',
             'where' => '{"template:=":"2"}',
             'tpl' => '@FILE:chunks/main/articlesFirstScreen.row.tpl',
-            'frontend_css' => '	{$assetsUrl}css/pdopageCustom.min.css',
+            'frontend_css' => 'assets/components/pdotools/css/pdopageCustom.min.css',
             'ajaxTplMore' => '@FILE:chunks/common/buttonMore.tpl'
         ])}
         </div>
