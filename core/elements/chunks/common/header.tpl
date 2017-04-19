@@ -23,7 +23,7 @@
                         'pageId' => 20,
                         'tplForm' => '@FILE:chunks/search/searchForm.tpl'
                     ])}
-                    {*<a href="#" class="btn btn_top"><span>Подписаться</span></a>*}
+                    <a data-remodal-target="modal" href="#modal" class="btn btn_top"><span>Подписаться</span></a>
                     <input type="checkbox" id="btn_open" class="menu_ticker">
                     <label class="btn_menu" for="btn_open">
                         <span class="first"></span>

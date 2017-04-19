@@ -50,3 +50,4 @@
         </div>
     </div>
 </footer>
+{include 'file:chunks/common/remodal.tpl'}

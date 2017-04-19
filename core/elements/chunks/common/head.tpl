@@ -9,20 +9,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 {$_modx->runSnippet('MinifyX',[
     'minifyCss' => 1,
-    'minifyJs' => 0,
+    'minifyJs' => 1,
     'registerCss' => 'default',
+    'registerJs' => 'default',
     'jsSources' => '
-        assets/templates/js/bx/jquery.bxslider.min.js,
-        assets/templates/js/jquery.easy-autocomplete.min.js,
-        assets/templates/js/jquery.bxslider/jquery.bxslider.min.js,
-        assets/templates/js/jquery.sticky.js,
-        assets/templates/js/remodal.min.js,
-        assets/templates/js/scripts.js
+        assets/templates/default/js/remodal.min.js
     ',
     'cssSources' => 'assets/templates/default/css/normalize.css,
     assets/templates/default/css/slick.css,
     assets/templates/default/css/bootstrap-grid.css,
     assets/templates/default/css/style.css,
-    assets/templates/default/css/media.css'
+    assets/templates/default/css/media.css,
+    assets/templates/default/css/remodal.css,
+    assets/templates/default/css/remodal-default-theme.css'
 ])}
 {include 'file:chunks/common/openGraph.tpl'}

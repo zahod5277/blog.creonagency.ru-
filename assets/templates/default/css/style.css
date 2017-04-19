@@ -176,10 +176,12 @@ img {
     line-height: 20px;
     box-sizing: border-box;
     padding: 5px;
+    border:none;
 }
 .btn:hover {
     background: #000;
     color: #fff;
+    cursor: pointer;
 }
 .btn_top {
     margin-top: 10px;
@@ -192,6 +194,7 @@ img {
     padding: 4px 6px;
     font-weight: 600;
 }
+
 /*
     Header
 */
@@ -785,4 +788,13 @@ td,.page_content th,
 
 .ui-autocomplete{
     width: 300px!important;
+}
+
+
+.form-control{
+    padding: 14px 10px;
+    font-size: 0.81rem;
+    color: #979797;
+    width: 95%;
+    margin-bottom: 15px;
 }
