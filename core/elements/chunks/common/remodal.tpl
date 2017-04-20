@@ -15,6 +15,10 @@
             <button class="btn btn-remodal">
                 <span>Подписаться</span>
             </button>
+            <p class="politics">
+                Ваши данные не будут переданы третьим лицам<br>
+                <a href="{'27'|url}" title="Политика конфиденциальности" target="_blank">Политика конфиденциальности</a>
+            </p>
         </form>
     </div>
 </div>

@@ -790,11 +790,20 @@ td,.page_content th,
     width: 300px!important;
 }
 
-
 .form-control{
-    padding: 14px 10px;
+    padding: 10px 10px;
     font-size: 0.81rem;
     color: #979797;
     width: 95%;
     margin-bottom: 15px;
+}
+
+.politics,.politics a{
+    font-size: 10px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+.politics a{
+    text-decoration: underline;
 }
