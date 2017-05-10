@@ -3,7 +3,7 @@
         <div class="post big_post" style="background-image: url({$largeThumb});">
             <div class="post_info">
                 <div class="post_title">
-                    <a href="{$uri}" titl="{$pagetitle}">{$pagetitle}</a>
+                    <a href="{$uri}" titl="{$pagetitle}">{$pagetitle|truncate:'47':'...'}</a>
                 </div>
                 <div class="post_category">{$longtitle}</div>
                 <div class="post_desc">

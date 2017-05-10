@@ -1,9 +1,10 @@
 {if $_modx->resource.id==1}
     {var $parent=5}
+{elseif $_modx->resource.id==9}
+    {var $parent='10,23,24'}
 {else}
-    {var $parent=$_modx->resource.id}
 {/if}
-{*<section class="posts_wrap">*}
+<section class="posts_wrap">
     <div class="container" id="pdopage">
         <div class="rows row clearfix">
         {$_modx->runSnippet('!pdoPage',[
@@ -23,6 +24,6 @@
             'ajaxTplMore' => '@FILE:chunks/common/buttonMore.tpl'
         ])}
         </div>
-        {*$_modx->getPlaceholder('page.nav')*}
+        {$_modx->getPlaceholder('page.nav')}
     </div>
 </section>

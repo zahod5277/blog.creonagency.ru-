@@ -24,7 +24,12 @@
                     </p>
                     {/if}
                     {$_modx->resource.content}
-                    
+                    {if $_modx->user.id==1}
+                        <h6>Кликни по картинке, чтобы получить ссылку на картинку для e-mail письма</h6>
+                        {$_modx->runSnippet('ms2Gallery',[
+                            'tpl' => '@FILE:chunks/articles/adminImgUrls.tpl'
+                        ])}
+                    {/if}
                     <div class="page_bottom">
                         <div class="row clearfix">
                             <div class="col-md-6 col-sm-6 col-xs-12">

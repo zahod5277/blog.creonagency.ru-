@@ -6,7 +6,7 @@
                     <a href="/" title="" class="header_logo">
                         <img src="{$_modx->config.assets_url}templates/default/img/logo.png" alt="">
                     </a>
-                    <div class="logo_info">Блог о BTL</div>
+                    <div class="logo_info">Первый блог о BTL в России</div>
                 </div>
             </div>
             <div class="top_menu col-md-6">

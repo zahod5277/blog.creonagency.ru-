@@ -8,7 +8,7 @@
     <div class="post" style="background-image: url('{$image}');">
         <div class="post_info">
             <div class="post_title">
-                <a href="{$uri}" title="{$pagetitle}">{$pagetitle}</a>
+                <a href="{$uri}" title="{$pagetitle}">{$pagetitle|truncate:'40':'...'}</a>
             </div>
             <div class="post_category">
                 <span>{$longtitle}</span>

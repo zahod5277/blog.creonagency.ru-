@@ -1,5 +1,7 @@
 {if $_modx->resource.id==1}
     {var $parent=5}
+{elseif $_modx->resource.id==9}
+    {var $parent='10,23,24'}
 {else}
     {var $parent=$_modx->resource.id}
 {/if}

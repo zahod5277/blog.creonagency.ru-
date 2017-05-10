@@ -206,19 +206,21 @@ img {
     font-family: 'Circe';
 }
 .header_logo {
-    width: 185px;
+    width: 130px;
     height: 60px;
+    vertical-align: middle;
+    margin-top: 6px;
 }
 .logo_info {
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
-    padding: 21px 0;
-    margin-left: 26px;
+    padding: 19px 0;
+    margin-left: 36px;
 }
 .header_left {
-    min-width: 317px;
+    min-width: 400px;
 }
 .header_right {
     float: right;
@@ -229,7 +231,7 @@ img {
 */
 .menu {
     margin: 13px 24px 0;
-    margin: 13px 20px 0 10px;
+    margin: 13px 20px 0 70px;
     list-style: none;
     font-size: 0;
     padding: 0;
@@ -259,7 +261,7 @@ img {
     display: block;
     padding: 6px 24px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21px;
     font-weight: 600;
 }
@@ -366,7 +368,8 @@ img {
     transition: all 0.3s ease;
 }
 .big_post .post_info {
-    padding: 29px 36px 10px;
+    /*padding: 29px 36px 10px;*/
+    padding: 18px 36px 10px;
 } 
 .post_title, .post_title a{
     color: #2f3587;
@@ -382,6 +385,12 @@ img {
     max-height: 20px;
     margin-bottom: 7px;
 }
+
+.big_post .post_title{
+    max-height: 30px;
+    line-height: 27px;
+}
+
 .post_category {
     color: #2f3587;
     font-size: 14px;
@@ -426,8 +435,8 @@ img {
 */
 .popular_wrap {
     background: #4bc5fd;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+/*    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;*/
     padding: 25px 0 12px;
 }
 .popular_wrap .title {
@@ -799,7 +808,8 @@ td,.page_content th,
 }
 
 .politics,.politics a{
-    font-size: 10px;
+    font-family: 'PT Sans';
+    font-size: 12px;
     color: #fff;
     margin-top: 18px;
 }

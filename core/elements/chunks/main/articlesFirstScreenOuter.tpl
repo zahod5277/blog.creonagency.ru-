@@ -4,4 +4,4 @@
           {$output}  
         </div>
     </div>
-{*</section>*}
+</section>

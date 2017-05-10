@@ -12,6 +12,11 @@
     a:focus {
         outline: none;
     }
+    
+    .big_post .post_title{
+        max-height: 26px;
+    }
+    
 }
 @media screen and (max-width: 1240px) {
     .menu a {
@@ -89,6 +94,10 @@
         margin-right: 0;
         margin-left: 30px;
     }
+    
+    .innerRemodal{
+        padding: 20px;
+    }
 }
 @media screen and (max-width: 750px) {
     .search {
@@ -131,6 +140,14 @@
 @media screen and (max-width: 450px) {
     .btn_top {
         display: none;
+    }
+    .big_post .post_title, .big_post .post_title a {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 9px;
+    }
+    .big_post .post_info {
+        padding: 15px 19px 10px;
     }
 }
 @media screen and (max-width: 425px) {

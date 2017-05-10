@@ -1,4 +1,4 @@
-{*$_modx->runSnippet('pdoResources',[
+{$_modx->runSnippet('pdoResources',[
     'parents' => 5,
     'where' => '{"template:=":"2"}',
     'limit' => 4,
@@ -19,4 +19,4 @@
     }'
     'groupby' => 'Ticket.id'
     'sortby' => '{"countviews":"desc"}',
-])*}
+])}
