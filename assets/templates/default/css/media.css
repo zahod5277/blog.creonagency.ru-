@@ -18,9 +18,12 @@
     }
     
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1280px) {
     .menu a {
         padding: 6px 15px;
+    }
+    .logo_info {
+        margin-left: 25px;
     }
 }
 @media screen and (max-width: 1170px) {

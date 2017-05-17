@@ -8,7 +8,7 @@
                         <ul class="footer_menu">
                             <li class="first"><a target="_blank" title="BTL Agency Creon" href="https://www.creonagency.ru">Сайт агентства</a></li>
                             <li><a target="_blank" href="https://www.creonagency.ru/video.html" title="Видео BTL">Видео BTL</a></li>
-                            <li class="last"><a target="_blank" href="#">Производство</a></li>
+                            <li class="last"><a target="_blank" title="Промо материалы" href="https://www.creonagency.ru/promo-materialyi.html">Промо материалы</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6 make-xs-12">
@@ -23,7 +23,7 @@
                         <div class="footer_title">Услуги</div>
                         <ul class="footer_menu">
                             <li class="first"><a target="_blank" href="https://www.creonagency.ru/btl-akcii.html" title="BTL Акции">BTL акции</a></li>
-                            <li><a target="_blank" href="https://www.creonagency.ru/sales-promotion.html" title="Стимулирование продаж">Стимулирование продаж</a></li>
+                            <li><a target="_blank" href="https://www.creonagency.ru/razdacha-listovok.html" title="Раздача листовок">Раздача листовок</a></li>
                             <li class="last"><a target="_blank" href="https://www.creonagency.ru/degustacziya.html" href="Прововедение дегустаций">Проведение дегустаций</a></li>
                         </ul>
                     </div>
