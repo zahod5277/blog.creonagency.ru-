@@ -849,3 +849,20 @@ td,.page_content th,
     font-style: normal;
     cursor: pointer;
 }
+
+
+#breadcrumbs{
+    padding-left: 0px;
+}
+
+#breadcrumbs li{
+    display: inline;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+#breadcrumbs li::before{
+    content:none;
+}

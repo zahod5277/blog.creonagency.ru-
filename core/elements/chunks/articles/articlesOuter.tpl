@@ -18,6 +18,7 @@
         <div class="row clearfix">
             <div class="col-md-8">
                 <div class="page_content">
+                    {include 'file:chunks/common/breadcrumbs.tpl'}
                     {if $_modx->resource.introtext?}
                     <p>
                         {$_modx->resource.introtext}

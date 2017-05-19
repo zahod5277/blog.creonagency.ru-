@@ -12,3 +12,5 @@
  {if $_modx->resource.introtext?}
  <meta property="og:description" content="{$introtext}" />
  {/if}
+ <meta property="og:url" content="{$_modx->resource.id|url}" />
+ <meta property="og:type" content="website" />
