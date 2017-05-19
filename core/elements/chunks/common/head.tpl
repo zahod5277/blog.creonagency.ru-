@@ -23,7 +23,8 @@
     'registerCss' => 'default',
     'registerJs' => 'default',
     'jsSources' => '
-        assets/templates/default/js/remodal.min.js
+        assets/templates/default/js/remodal.min.js,
+        assets/templates/default/js/frontend.js
     ',
     'cssSources' => 'assets/templates/default/css/normalize.css,
     assets/templates/default/css/slick.css,

@@ -51,3 +51,4 @@
     </div>
 </footer>
 {include 'file:chunks/common/remodal.tpl'}
+{include 'file:chunks/common/tinyPopup.tpl'}

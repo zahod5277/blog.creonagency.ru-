@@ -1,5 +1,4 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="{$_modx->config.assets_url}templates/default/js/frontend.js"></script>
 {ignore}
 
 <script type="text/javascript">(function(w,doc) {
@@ -17,8 +16,8 @@ if (!w.__utlWdgt ) {
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter44606881 = new Ya.Metrika({
-                    id:44606881,
+                w.yaCounter44606893 = new Ya.Metrika({
+                    id:44606893,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
