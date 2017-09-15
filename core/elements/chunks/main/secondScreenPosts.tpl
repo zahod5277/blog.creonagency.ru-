@@ -4,7 +4,10 @@
     {var $parent='10,23,24'}
 {else}
 {/if}
-<section class="posts_wrap">
+{if ('mobile'|detector)||('tablet'|detector)}
+    {var $class=" mobile-wrap"}
+{/if}
+<section class="posts_wrap{$class}">
     <div class="container" id="pdopage">
         <div class="rows row clearfix">
         {$_modx->runSnippet('!pdoPage',[

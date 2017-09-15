@@ -3,6 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="yandex-verification" content="2c1c37d90e62c77d" />
+<base href="{$_modx->config.site_url}">
 {if $_modx->resource.longtitle==''}
     {var $title = $_modx->resource.pagetitle}
 {else}

@@ -866,3 +866,7 @@ td,.page_content th,
 #breadcrumbs li::before{
     content:none;
 }
+
+.mobile-wrap{
+    padding-top: 0px;
+}

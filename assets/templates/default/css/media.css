@@ -106,6 +106,10 @@
     .search {
         display: none;
     }
+    .make-xs-12 {
+        width: 100%;
+        float: none;
+    }
 }
 @media screen and (max-width: 720px) {
     
@@ -143,6 +147,9 @@
 @media screen and (max-width: 450px) {
     .btn_top {
         display: none;
+    }
+    .big_post .post_title {
+        max-height: 40px;
     }
     .big_post .post_title, .big_post .post_title a {
         font-size: 20px;
