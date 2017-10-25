@@ -693,6 +693,12 @@ td,.page_content th,
 .footer_title {
     margin-bottom: 12px;
 }
+
+.footer__politics a{
+    font-size: 12px;
+    display: block;
+}
+
 .copyright {
     line-height: 32px;
 }

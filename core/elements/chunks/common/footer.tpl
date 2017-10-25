@@ -46,6 +46,10 @@
                     <a target="_blank" href="https://twitter.com/creonagency" target="_blank" title="BTL Agency Creon Twitter" class="soc_icon"></a>
                 </div>
                 <div class="copyright">© 2010 — 2017</br> Рекламное агентство «Креон»</div>
+                <div class="footer__politics">
+                <a target="_blank" title="Политика конфиденциальности BTL Agency Creon" href="{'27'|url}">Политика конфиденциальности</a>
+                <a target="_blank" title="Пользовательское соглашение BTL Agency Creon" href="{'58'|url}">Пользовательское соглашение</a>
+                </div>
             </div>
         </div>
     </div>
