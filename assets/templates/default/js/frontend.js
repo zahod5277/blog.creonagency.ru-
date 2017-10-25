@@ -25,6 +25,17 @@ $(document).ready(function () {
     $(popupModal.options.closeBtn).on('click',function(){
         popupModal.closePopup();
     });
+    
+    $('form button').attr('disabled',true);
+    
+    $('[name=politics]').on('click', function(){
+        if ($(this).prop('checked')==true){
+            $('form button').removeAttr('disabled');
+        } else {
+            $('form button').attr('disabled',true);
+        }
+    })
+    
     $(document).on('scroll', function () {
         if ($(window).scrollTop() > (outerHeight / 4)) {
             console.log('scrollin');

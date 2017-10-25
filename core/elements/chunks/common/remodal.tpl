@@ -15,10 +15,7 @@
             <button class="btn btn-remodal">
                 <span>Подписаться</span>
             </button>
-            <p class="politics">
-                Ваши данные не будут переданы третьим лицам<br>
-                <a href="{'27'|url}" title="Политика конфиденциальности" target="_blank">Политика конфиденциальности</a>
-            </p>
+            {include 'file:chunks/common/politics.tpl'}
             <input type="hidden" name="charset" value="UTF-8">
             <input type="hidden" name="default_list_id" value="8681499">
             <input type="hidden" name="overwrite" value="2">

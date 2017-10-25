@@ -128,6 +128,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0071b5', end
     font-size: 13px;
 }
 
+
+.btn-remodal[disabled="disabled"]{
+    background: #f0d775;
+}
+
+.btn-remodal[disabled="disabled"]:hover, .btn-remodal[disabled="disabled"]:hover span{
+    color: black;
+}
+
 .remodalForm{
     text-align: left;
 }

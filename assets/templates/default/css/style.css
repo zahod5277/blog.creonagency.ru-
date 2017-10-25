@@ -807,9 +807,12 @@ td,.page_content th,
     margin-bottom: 15px;
 }
 
+.politics{
+    display: block;
+}
+
 .politics,.politics a{
-    font-family: 'PT Sans';
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     margin-top: 18px;
 }
@@ -869,4 +872,26 @@ td,.page_content th,
 
 .mobile-wrap{
     padding-top: 0px;
+}
+
+.article__button{
+    text-align: center;
+}
+
+.article__button a{
+    float:none;
+    color:black;
+    text-decoration: none!important;
+}
+
+@media(max-width:480px){
+    .article__button a{
+        width: 80%;
+    }
+}
+
+@media(min-width: 480px){
+    .article__button a{
+        width: 510px;
+    }
 }

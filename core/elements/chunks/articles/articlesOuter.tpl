@@ -33,6 +33,11 @@
                     {/if}
                     <div class="page_bottom">
                         <div class="row clearfix">
+                            <p class="article__button">
+                                <a data-remodal-target="modal" href="#modal" class="btn btn_top">
+                                    <span>Подписаться на рассылку полезных статей от Creon</span>
+                                </a>
+                            </p>
                             {include 'file:chunks/articles/socialLinks.tpl'}
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="social_title">Поделиться с друзьями</div>
